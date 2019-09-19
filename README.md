@@ -1,5 +1,30 @@
 # Team Placeholder
+# task1
 
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
 
 # Contribution Guide
 - Fork the repo and clone to you local machine using ```bash git clone https://github.com/gideon-ofoegbu/team_placeholder.git```
