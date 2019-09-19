@@ -21,6 +21,13 @@ const router = new Router({
             component: () =>
                 import ('@/views/Signup.vue')
         },
+        {
+            path: '/dashboard',
+            name: 'dashboard',
+            meta: { layout: "auth" },
+            component: () =>
+                import ('@/views/Dashboard.vue')
+        },
     ]
 });
 

@@ -114,11 +114,11 @@ export default {
     })
   },
   watch: { 
-    // isLoggin: function(newVal, oldVal) {
-    //   if(newVal){
-    //     this.$router.push({ path: 'dashboard' });
-    //   }
-    // }
+    isLoggin: function(newVal, oldVal) {
+      if(newVal){
+        this.$router.push({ path: 'dashboard' });
+      }
+    }
   },
   methods: {
     authenticateUser(){
@@ -142,11 +142,11 @@ export default {
     }
   },
   async mounted() {
-    // const user = await this.$getItem('user').then((value) => value ).catch((err) => null );
-    // this.$store.dispatch('auth/userAuthenticated', user);
-    // if(this.isLoggin){
-    //   this.$router.push({ path: 'dashboard' });
-    // }
+    const user = await this.$getItem('user').then((value) => value ).catch((err) => null );
+    this.$store.dispatch('auth/userAuthenticated', user);
+    if(this.isLoggin){
+      this.$router.push({ path: 'dashboard' });
+    }
   }
 };
 </script>
