@@ -1,0 +1,39 @@
+{
+  "name": "task1",
+  "version": "0.1.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.4.10",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "material-design-icons-iconfont": "^4.0.5",
+    "register-service-worker": "^1.6.2",
+    "roboto-fontface": "*",
+    "vee-validate": "^2.2.9",
+    "vue": "^2.6.10",
+    "vue-analytics": "^5.17.0",
+    "vue-axios": "^2.1.4",
+    "vue-feather-icons": "^4.21.0",
+    "vue-localforage": "^0.2.5",
+    "vue-paystack": "^2.0.2",
+    "vue-router": "^3.0.3",
+    "vue-slimscroll": "^1.0.1",
+    "vue-sweetalert2": "^1.6.4",
+    "vue2-google-maps": "^0.10.6",
+    "vuejs-datatable": "^1.7.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
