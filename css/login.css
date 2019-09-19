@@ -40,7 +40,7 @@ body {
 }
 
 .modal-content {
-	background: url(../images/modal-background.jpg) no-repeat center center fixed;
+	background: url(../images/mini_background.jpg) no-repeat center center fixed;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,9 +67,13 @@ body {
 }
 
 .left h2 {
-	text-align: center;	
+  text-align: center;	
+  margin-left: 50px;
+  margin-right: 320px;
+  margin-top: 130px;
 	line-height: 2;
-	font-weight: bold;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .modal-content .right {
@@ -86,7 +90,7 @@ body {
 }
 
 .right input[type=submit] {
-	background: url(../images/btn.png);
+	background: url(../images/mini_background.jpg);
   border: none;
   border-radius: 10px;
   color: white;
@@ -103,7 +107,8 @@ body {
 }
 
 a.register{
-	text-decoration: none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 
@@ -111,7 +116,7 @@ a.rpsw {
 	text-decoration: none;
 	margin-left: 50px;
 	font-style: italic;
-	font-family: courier;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -133,4 +138,5 @@ button.reg {
 
 .login.skjul, .signUp.skjul {
   display: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
